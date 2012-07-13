@@ -1,0 +1,397 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+/* line 1, ../../app/assets/stylesheets/__application.css.scss.dark */
+body {
+  font-family: tahoma;
+  font-size: 13px;
+  line-height: 18px;
+  margin-left: 450px;
+  margin-right: 450px;
+  background: #303030 url(/assets/refinery/page_bg.png) repeat;
+}
+
+/* line 10, ../../app/assets/stylesheets/__application.css.scss.dark */
+#body_content.lefty {
+  margin-left: 0px;
+  float: left;
+  width: 73.75%;
+  background: #ddd;
+  color: #333;
+  padding: 15px;
+}
+
+/* line 19, ../../app/assets/stylesheets/__application.css.scss.dark */
+#body_content.centery {
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left;
+  width: 97%;
+  background: #ddd;
+  color: #333;
+  padding: 15px;
+}
+
+/* line 29, ../../app/assets/stylesheets/__application.css.scss.dark */
+#side_body_content {
+  margin-right: 0px;
+  float: right;
+  width: 20%;
+  background: #bbb;
+  color: #333;
+  padding: 15px;
+}
+
+/* line 38, ../../app/assets/stylesheets/__application.css.scss.dark */
+#logo a {
+  margin-right: 0px;
+  float: right;
+  color: #eee;
+  text-decoration: none;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* line 50, ../../app/assets/stylesheets/__application.css.scss.dark */
+#title_content {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: #eee;
+}
+
+/* line 57, ../../app/assets/stylesheets/__application.css.scss.dark */
+#menu ul {
+  list-style: none;
+  padding: 0px;
+}
+/* line 60, ../../app/assets/stylesheets/__application.css.scss.dark */
+#menu ul li {
+  float: left;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+/* line 64, ../../app/assets/stylesheets/__application.css.scss.dark */
+#menu ul li a {
+  display: block;
+  color: #eee;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  background: #333;
+}
+/* line 72, ../../app/assets/stylesheets/__application.css.scss.dark */
+#menu ul li.selected a {
+  background: #999;
+  color: #333;
+}
+/* line 76, ../../app/assets/stylesheets/__application.css.scss.dark */
+#menu ul li a:hover {
+  background: #999;
+}
+
+/* line 83, ../../app/assets/stylesheets/__application.css.scss.dark */
+footer {
+  margin-top: 100px;
+  margin-left: 0px;
+  text-align: center;
+  width: 100%;
+  background: #666;
+  color: #ddd;
+  padding: 0px;
+}
+/* line 1, ../../app/assets/stylesheets/application.css.scss.light */
+#access_bar ul {
+  list-style: none;
+  padding: 0px;
+}
+/* line 4, ../../app/assets/stylesheets/application.css.scss.light */
+#access_bar ul li {
+  float: left;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+/* line 8, ../../app/assets/stylesheets/application.css.scss.light */
+#access_bar ul li a {
+  display: block;
+  color: #333;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  background: #ddd;
+}
+/* line 17, ../../app/assets/stylesheets/application.css.scss.light */
+#access_bar ul li.selected a {
+  background: #666;
+  color: #eee;
+}
+/* line 21, ../../app/assets/stylesheets/application.css.scss.light */
+#access_bar ul li a:hover {
+  background: #999;
+}
+
+/* line 29, ../../app/assets/stylesheets/application.css.scss.light */
+body {
+  font-family: Tahoma;
+  font-size: 13px;
+  line-height: 18px;
+  margin-left: 450px;
+  margin-right: 450px;
+  background: #eee;
+}
+
+/* line 38, ../../app/assets/stylesheets/application.css.scss.light */
+#body_content.lefty {
+  margin-left: 0px;
+  float: left;
+  width: 73.75%;
+  background: #ddd;
+  color: #333;
+  padding: 15px;
+}
+
+/* line 47, ../../app/assets/stylesheets/application.css.scss.light */
+#body_content.centery {
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left;
+  width: 97%;
+  background: #ddd;
+  color: #333;
+  padding: 15px;
+}
+
+/* line 57, ../../app/assets/stylesheets/application.css.scss.light */
+#side_body_content {
+  margin-right: 0px;
+  float: right;
+  width: 20%;
+  background: #bbb;
+  color: #333;
+  padding: 15px;
+}
+
+/* line 66, ../../app/assets/stylesheets/application.css.scss.light */
+#logo a {
+  margin-right: 0px;
+  float: right;
+  color: #333;
+  text-decoration: none;
+  padding: 0px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* line 78, ../../app/assets/stylesheets/application.css.scss.light */
+#title_content {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: #333;
+}
+
+/* line 85, ../../app/assets/stylesheets/application.css.scss.light */
+#menu ul {
+  list-style: none;
+  padding: 0px;
+}
+/* line 88, ../../app/assets/stylesheets/application.css.scss.light */
+#menu ul li {
+  float: left;
+  margin-right: 10px;
+  margin-left: 0px;
+}
+/* line 92, ../../app/assets/stylesheets/application.css.scss.light */
+#menu ul li a {
+  display: block;
+  color: #333;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  background: #ddd;
+}
+/* line 100, ../../app/assets/stylesheets/application.css.scss.light */
+#menu ul li.selected a {
+  background: #666;
+  color: #eee;
+}
+/* line 104, ../../app/assets/stylesheets/application.css.scss.light */
+#menu ul li a:hover {
+  background: #999;
+}
+
+/* line 111, ../../app/assets/stylesheets/application.css.scss.light */
+ul.topmenu li ul {
+  visibility: hidden;
+  list-style: none;
+  padding: 0px;
+}
+
+/* line 117, ../../app/assets/stylesheets/application.css.scss.light */
+ul.topmenu li:hover ul {
+  visibility: visible;
+}
+
+/* line 122, ../../app/assets/stylesheets/application.css.scss.light */
+ul.topmenu li ul li {
+  float: left;
+}
+/* line 124, ../../app/assets/stylesheets/application.css.scss.light */
+ul.topmenu li ul li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  background: #ddd;
+}
+/* line 130, ../../app/assets/stylesheets/application.css.scss.light */
+ul.topmenu li ul li.selected a {
+  background: #666;
+  color: #eee;
+}
+/* line 134, ../../app/assets/stylesheets/application.css.scss.light */
+ul.topmenu li ul li a:hover {
+  background: #999;
+}
+
+/* line 144, ../../app/assets/stylesheets/application.css.scss.light */
+footer {
+  margin-top: 100px;
+  margin-left: 0px;
+  text-align: center;
+  width: 100%;
+  background: #666;
+  color: #ddd;
+  padding: 0px;
+}
+/* line 6, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar_content {
+  height: 47px;
+  position: relative;
+  margin: 0px auto 10px auto;
+  text-align: left;
+  width: 990px;
+}
+
+/* line 13, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar {
+  background: #22a7f2;
+  border-bottom: 0px none;
+}
+
+/* line 17, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+a#site_bar_refinery_cms_logo {
+  left: 448px;
+}
+
+/* line 20, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar, #site_bar * {
+  color: white;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* line 26, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#editor_switch, #site_bar_branding, a#site_bar_refinery_cms_logo {
+  position: absolute;
+}
+
+/* line 27, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#editor_switch {
+  left: 0px;
+}
+/* line 29, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#editor_switch a, #editor_switch a:hover {
+  color: white;
+  background: #eeeeee;
+  border-bottom: 0px none;
+  padding: 4px 14px;
+  border: 1px solid #333333;
+  height: 24px;
+  line-height: 24px;
+  cursor: pointer;
+}
+/* line 41, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#editor_switch span {
+  border: 1px solid #0280c7;
+  height: 26px;
+  line-height: 26px;
+  margin-top: 9px;
+  display: block;
+  cursor: pointer;
+}
+/* line 49, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#editor_switch a, #editor_switch span {
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+}
+
+/* line 53, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar {
+  height: 47px;
+  background: #111777;
+  padding: 0px;
+}
+/* line 58, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar * {
+  line-height: 47px;
+}
+/* line 61, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar a {
+  text-decoration: none;
+}
+/* line 64, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_branding {
+  right: 0px;
+}
+/* line 66, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_branding a {
+  font-weight: normal;
+}
+/* line 68, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_branding a#logout {
+  margin-left: 12px;
+}
+/* line 73, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+#site_bar #site_bar_company_name {
+  font-weight: bold;
+}
+
+/* line 77, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+a#site_bar_refinery_cms_logo {
+  left: 44.5%;
+  border-bottom: none;
+  line-height: 29px;
+  height: 29px;
+  margin-top: 9px;
+  overflow: hidden;
+}
+/* line 84, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+a#site_bar_refinery_cms_logo:hover {
+  border-bottom: none;
+  opacity: 1;
+}
+/* line 87, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+a#site_bar_refinery_cms_logo:hover img {
+  margin-top: -29px;
+}
+
+/* line 92, ../../../app/assets/stylesheets/refinery/site_bar.css.scss */
+.ie7 #site_bar #editor_switch a {
+  height: 26px;
+  line-height: 26px;
+}

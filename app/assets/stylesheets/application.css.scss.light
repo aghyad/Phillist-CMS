@@ -1,0 +1,152 @@
+#access_bar ul {
+  list-style: none;
+  padding: 0px;
+  li {
+    float: left;
+    margin-right: 10px;
+	margin-left: 0px;
+    a {
+      display: block;
+	  color: #333;
+      padding: 5px 10px;
+      text-decoration: none;
+	  font-size: 12px;
+	  font-weight: bold;
+	  background: #ddd;
+    }
+    &.selected a {
+      background: #666;
+	  color: #eee;
+    }
+    a:hover {
+      background: #999;
+	  //color: #333;
+    }
+  }
+}
+
+
+body {
+  font-family: Tahoma;
+  font-size: 13px;
+  line-height: 18px;
+  margin-left: 450px;
+  margin-right: 450px;
+  background: #eee;
+}
+
+#body_content.lefty{	
+  margin-left: 0px;
+  float: left;
+  width: 73.75%;
+  background: #ddd;
+  color: #333;
+  padding: 15px;
+}
+
+#body_content.centery{
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left;
+  width: 97%;
+  background: #ddd;
+  color: #333;
+  padding: 15px;
+}
+
+#side_body_content{
+  margin-right: 0px;
+  float: right;
+  width: 20%;
+  background: #bbb;
+  color: #333;
+  padding: 15px;
+}
+
+#logo a{
+  //margin-top:10px;
+  margin-right:0px;
+  float: right;
+  color: #333;
+  text-decoration: none;
+  //width: 98%;
+  padding: 0px;
+  font-weight:bold;
+  font-size:25px;
+}
+
+#title_content{
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: #333;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0px;
+  li {
+    float: left;
+    margin-right: 10px;
+	margin-left: 0px;
+    a {
+      display: block;
+	  color: #333;
+      padding: 5px 10px;
+      text-decoration: none;
+	  font-size: 18px;
+	  background: #ddd;
+    }
+    &.selected a {
+      background: #666;
+	  color: #eee;
+    }
+    a:hover {
+      background: #999;
+	  //color: #333;
+    }
+  }
+}
+
+ul.topmenu li ul {
+  visibility: hidden; 
+  list-style: none;
+  padding: 0px;
+}
+
+ul.topmenu li:hover ul {
+  visibility: visible;
+}
+
+
+ul.topmenu li ul li {
+  float: left;
+  a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    background: #ddd;
+  }
+  &.selected a {
+    background: #666;
+    color: #eee;
+  }
+  a:hover {
+    background: #999;
+  }
+}
+
+
+
+
+
+
+footer{
+  margin-top: 100px;
+  margin-left: 0px;
+  text-align: center;
+  width: 100%;
+  background: #666;
+  color: #ddd;
+  padding: 0px;
+}

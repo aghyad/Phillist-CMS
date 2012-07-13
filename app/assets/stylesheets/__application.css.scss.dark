@@ -1,0 +1,91 @@
+body {
+  font-family: tahoma;
+  font-size: 13px;
+  line-height: 18px;
+  margin-left: 450px;
+  margin-right: 450px;
+  background: #303030 url(/assets/refinery/page_bg.png) repeat;
+}
+
+#body_content.lefty{
+  margin-left: 0px;
+  float: left;
+  width: 73.75%;
+  background: #ddd;
+  color: #333;
+  padding: 15px;
+}
+
+#body_content.centery{
+  margin-left: 0px;
+  margin-right: 0px;
+  float: left;
+  width: 97%;
+  background: #ddd;
+  color: #333;
+  padding: 15px;
+}
+
+#side_body_content{
+  margin-right: 0px;
+  float: right;
+  width: 20%;
+  background: #bbb;
+  color: #333;
+  padding: 15px;
+}
+
+#logo a{
+  //margin-top:10px;
+  margin-right:0px;
+  float: right;
+  color: #eee;
+  text-decoration: none;
+  //width: 98%;
+  padding: 0px;
+  font-weight:bold;
+  font-size:25px;
+}
+
+#title_content{
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
+  color: #eee;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0px;
+  li {
+    float: left;
+    margin-right: 10px;
+	margin-left: 0px;
+    a {
+      display: block;
+	  color: #eee;
+      padding: 5px 10px;
+      text-decoration: none;
+	  font-size: 18px;
+	  background: #333;
+    }
+    &.selected a {
+      background: #999;
+	  color: #333;
+    }
+    a:hover {
+      background: #999;
+	  //color: #eee;
+    }
+  }
+}
+
+footer{
+  margin-top: 100px;
+  margin-left: 0px;
+  text-align: center;
+  width: 100%;
+  background: #666;
+  color: #ddd;
+  padding: 0px;
+}

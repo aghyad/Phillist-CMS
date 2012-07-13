@@ -1,0 +1,34 @@
+<!-- content_page is a partial that's used to add all the CMS content of this page next to each other -->
+<%= #render '/refinery/content_page' 
+%>
+
+
+<%  unless @page.title.nil? %>
+	<br><br><br>
+	<section id='title_content'>
+	  <%=raw @page.title %>
+	</section>
+	<br><br>
+<% end %>
+
+<%  unless @page.content_for(:body).nil? %>
+	<section id='body_content' class="<%= (@page.content_for(:side_body).nil?) ? "centery" : "lefty" %>">
+	  <%=raw @page.content_for(:body) %>
+	  <% #if @page.slug=="articles" 
+		%>
+	  	<%= #render "refinery/pages/articles/articles_home" 
+		%>
+	  <% #elsif @page.slug=="all-articles" 
+		%>
+	  	<%= #render "refinery/pages/articles/all_articles" 
+		%>
+	  <% #end 
+		%>
+	</section>
+<% end %>
+
+<%  unless @page.content_for(:side_body).nil? %>
+	<section id='side_body_content'>
+	  <%=raw @page.content_for(:side_body) %>
+	</section>
+<% end %>

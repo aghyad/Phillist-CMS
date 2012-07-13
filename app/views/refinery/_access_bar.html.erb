@@ -1,0 +1,24 @@
+<div id="access_bar">
+	<% #unless refinery_user? 
+	%>
+	<% if current_refinery_user.nil? %>
+		<ul>
+			<li>
+				<%= link_to "Member Sign In", refinery.new_refinery_user_session_path, {:style=>"text-decoration:none"} %>
+				<%= #link_to "Member Sign In", '/login', {:style=>"text-decoration:none"} 
+				%> 
+			</li>
+			<li><%= link_to "Register", refinery.new_refinery_user_registration_path, {:style=>"text-decoration:none"} %> </li>
+		</ul>
+	<% else %>
+		<ul>
+			<% if current_refinery_user.has_role?(:superuser) %>
+				<li><%= link_to "Edit User Profile", refinery.edit_admin_user_path(current_refinery_user.username), {:style=>"text-decoration:none"} %></li>
+			<% else %>
+				<li><%= link_to "Edit User Profile", "/account", {:style=>"text-decoration:none"} %></li>
+				<li><%= link_to "Log Out", refinery.destroy_refinery_user_session_path, :id => 'logout' %></li>
+			<% end %>
+		</ul>
+	<% end %>
+</div>
+<br><br>

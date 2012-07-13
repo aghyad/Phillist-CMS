@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<%= render '/refinery/html_tag' %>
+  <% site_bar = render('/refinery/site_bar', :head => true) -%>
+  <% access_bar = render('/refinery/access_bar') -%>
+  <%= render '/refinery/head' %>
+  <body>
+	<% if !current_refinery_user.nil? and current_refinery_user.has_role?(:superuser) %>
+		<%= site_bar %>
+	<% end %>
+    
+	<%= #link_to "Access CMS", :root, {:style=>"text-decoration:none"} 
+	%>
+	<% if Website::Application.config.enable_login_register_functionality %>
+		<%= access_bar -%>
+	<% end %>
+	
+    <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
+    <div id="page_container">
+      <header id="header">
+        <%= render '/refinery/header' -%>
+      </header>
+      <section id="page">
+        <%= yield %>
+      </section>
+      <footer>
+        <%= render '/refinery/footer' -%>
+      </footer>
+    </div>
+    <%= render '/refinery/javascripts' %>
+  </body>
+</html>

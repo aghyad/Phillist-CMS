@@ -1,0 +1,20 @@
+development: &development
+  adapter: mysql2
+  host: localhost
+  username: root
+  password:
+  database: website_cms_development
+
+test: &test
+  adapter: mysql2
+  host: localhost
+  username: root
+  password:
+  database: website_cms_test
+
+production: &production
+  adapter: mysql2
+  host: localhost
+  username: 
+  password: 
+  database: website_cms_production
